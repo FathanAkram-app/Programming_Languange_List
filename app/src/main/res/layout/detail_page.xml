@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/imgphoto"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:scaleType="fitXY"
+                android:src="@android:color/darker_gray"/>
+            
+        </FrameLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title"
+            android:id="@+id/tv_lang_title"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:paddingLeft="15dp"
+            android:textColor="@android:color/white" />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@android:color/white"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:text="@string/informasi_detail"
+            android:layout_marginTop="12sp"
+            android:paddingLeft="25dp"
+            android:textColor="@android:color/white"/>
+
+
+        <TextView
+            android:id="@+id/tv_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@android:color/white"
+            android:textStyle="normal"
+            android:text="@string/detail_isi"
+            android:paddingTop="2dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="#838383"
+            android:layout_marginTop="12sp"
+            android:backgroundTint="@android:color/white"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/helpful_yes"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:layout_marginTop="7dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="@string/yes"
+            android:id="@+id/btn_yes"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:background="@android:color/black"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="@string/no"
+            android:textColor="@android:color/white"
+            android:background="@android:color/black"
+            android:id="@+id/btn_no"
+            android:textStyle="bold"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="#838383"
+            android:layout_marginTop="7dp"
+            android:backgroundTint="@android:color/black"/>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Bahasa Programming</string>
+    <string name="email">fathan.a.dev@gmail.com</string>
+    <string name="nama">M.Fathan Akram</string>
+    <string name="title">Title</string>
+    <string name="informasi_detail">Informasi Detail</string>
+    <string name="detail_isi">Jadi ini adalah text untuk detailed information, jaoskado soajdoasdoa osjadoaskd osajdojao oijsa kajsokd js joisaj ksajd lksjad lksad sa;lmd; lsl sd jsal jda sal dlajs ld asljkd lj j as jld aojs djo asld las dla sldallsa dla sld als la sld</string>
+    <string name="helpful_yes">Apakah halaman ini membantumu?</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="about">About</string>
+</resources>
